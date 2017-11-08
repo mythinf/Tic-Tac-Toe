@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #fff8dc;
+  text-align: center;
+}
+
+h1{
+margin-top: 20px;
+font-family: 'Libre Barcode 39 Extended Text', cursive;
+font-size: 100px;
+text-align: center;
+}
+
+h1:hover{
+  color: #e9967a;
+}
+.board{
+  margin: 50px auto 0;
+  border-collapse: collapse;
+}
+
+.board td {
+  width: 110px;
+  height: 110px;
+  border: 3px solid #000000;
+  text-align: center;
+  font-size: 50px;
+  font-family: fantasy;
+
+}
+.board td:hover{
+  background: #e9967a;
+}
+
+#reset{
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 50px;
+  border: 0;
+  background: #000000;
+  color: #ffffff;
+}
+
+#reset:active{
+  background: #e9967a;
+  color: #000000;
+}
